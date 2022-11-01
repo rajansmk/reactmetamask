@@ -44,7 +44,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {haveMetamask ? (
+       
           <div className="App-header">
             {isConnected ? (
               <div className="card">
@@ -71,9 +71,7 @@ function App() {
               </button>
             )}
           </div>
-        ) : (
-          <p>Please Install MataMask</p>
-        )}
+        
       </header>
     </div>
   );
